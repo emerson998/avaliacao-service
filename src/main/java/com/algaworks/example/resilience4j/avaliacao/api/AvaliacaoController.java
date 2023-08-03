@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.algaworks.example.resilience4j.avaliacao.domain.AvaliacaoRepository;
 
 @RestController
-@RequestMapping("/avaliacaos")
+@RequestMapping("/avaliacoes")
 public class AvaliacaoController {
 	
 	private final AvaliacaoRepository avaliacaos;
